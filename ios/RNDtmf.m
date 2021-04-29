@@ -41,7 +41,7 @@ RCT_EXPORT_MODULE()
 }
 
 RCT_EXPORT_METHOD(startTone:(NSInteger)tone) {
-  startTone((int)tone, 5000);
+  startTone((int)tone, 1000);
 }
 
 RCT_EXPORT_METHOD(playTone:(NSInteger)tone durationMs:(NSInteger)duration) {
